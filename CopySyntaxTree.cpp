@@ -239,6 +239,8 @@ struct FoldConstants : Transformer
 
 int main()
 {
+	//TASK1
+		
 	/*Expression* e1 = new Number(1.234);
 	Expression* e2 = new Number(-1.234);
 	Expression* e3 = new BinaryOperation(e1, BinaryOperation::DIV, e2);
@@ -253,7 +255,10 @@ int main()
 	Expression* callAbs = new FunctionCall("abs", mult);
 	cout << callAbs->evaluate() << endl;*/
 
-	Number* n32 = new Number(32.0);
+
+	//TASK2
+
+	/*Number* n32 = new Number(32.0);
 	Number* n16 = new Number(16.0);
 	BinaryOperation* minus = new BinaryOperation(n32, BinaryOperation::MINUS, n16);
 	FunctionCall* callSqrt = new FunctionCall("sqrt", minus);
@@ -266,5 +271,5 @@ int main()
 	FoldConstants FC;
 	Expression* newExpr2 = callAbs->transform(&FC);
 
-	std::cout << newExpr2->print() << std::endl;
+	std::cout << newExpr2->print() << std::endl;*/
 }
